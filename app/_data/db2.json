@@ -1,0 +1,14 @@
+[    
+    {
+        "id": 1,
+        "title": "Describe something you own which is very important to you.",
+        "subtitle": "You should say:",
+        "questions": ["- Where you got it from", "- How long you have had it", "- What you use it for", "- Explain why it is important to you"]
+    },
+    {
+        "id": 2,
+        "title": "Describe a family member you spend a lot of time with",
+        "subtitle": "You should say:",
+        "questions": ["- Who this person is", "- What you like to do together?", "- What kind of person they are", "- Explain why you spend a lot of time with them"]
+    }
+]    

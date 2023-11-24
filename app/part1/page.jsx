@@ -3,8 +3,8 @@ import QuestionsList from '../components/QuestionsList';
 import { promises as fs } from 'fs';
 
 
-export default async function Part1Questions() {  
-  const file = await fs.readFile(process.cwd() + '/app/_data/db.json', 'utf8');
+export default async function Part1() {  
+  const file = await fs.readFile(process.cwd() + '/app/_data/db1.json', 'utf8');
   const topics = JSON.parse(file);
 
   return (
