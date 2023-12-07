@@ -1,35 +1,26 @@
 'use client'
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
+import { CountdownCircleTimer } from 'react-countdown-circle-timer'
+
 
 export default function Part2Button () {
+    
+    const renderTime = ({ remainingTime }) => {
+    
+          return <div>
+                    <div className="timer">{remainingTime}</div>
+                </div>;
+        }
 
-    let [countdown, setCountdown] = useState(60);
-    const [showTimer, setShowTimer] = useState(false)
-    const [startTimer, setStartTimer] = useState(false)
+    const [showTimer, setShowTimer] = useState(false);
+    const [startTimer, setStartTimer] = useState(false);    
+    const [key, setKey] = useState(0);
 
-   
-    useEffect(() => {
-        if(startTimer) {
-            const timer = setInterval(() => { 
-            setCountdown(countdown - 1)
-        
-            if (countdown === 0) {
-                setCountdown(0)
-                clearInterval(timer)
-            }
-        }, 1000)
-
-        return () => {
-            clearInterval(timer)
-        }   
-    }
-
-    }, [countdown, startTimer]);
 
     const onStart = () => {
-       setStartTimer(true); 
-      };
+       setStartTimer(true);
+    };
 
     const onPause = () => {
         setStartTimer(!startTimer);
@@ -37,28 +28,35 @@ export default function Part2Button () {
 
     const onReset = () => {
         setStartTimer(false);
-        setCountdown(60)
+        setKey(prevKey => prevKey + 1)
     }; 
     
     const toggleTimer = () => {
-        setShowTimer(!showTimer)
+        setShowTimer(!showTimer);
+        setStartTimer(false);
     };
 
     return (        
         <>
-            {!showTimer ? <button onClick={toggleTimer}>Show timer</button> : <button onClick={toggleTimer}>Hide timer</button> }
-
+            <button onClick={toggleTimer}>{!showTimer ? 'Show timer' : 'Hide timer'}</button> 
+            
             {showTimer && (
                 <div>                    
                     <button onClick={onStart}>Start&nbsp;</button>
-                    <button onClick={onReset}>Reset&nbsp;</button>
                     <button onClick={onPause}>Pause&nbsp;</button>
-                    <h2>{countdown}</h2>
-                </div>
-                
+                    <button onClick={onReset}>Reset</button>
+                        
+                    <CountdownCircleTimer
+                        isPlaying={startTimer ? true : false}
+                        duration={10}
+                        key={key}
+                        colors="green"
+                    >
+                        {renderTime}
+                    </CountdownCircleTimer>
+                    
+                </div> 
             )}
-
-        </>
-        
+        </> 
     )
 }

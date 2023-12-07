@@ -7,7 +7,7 @@ export default function QuestionsList({ topics }) {
     const [questions, setQuestions] = useState('')
 
     const onClick = () => {
-    setQuestions(!questions)
+        setQuestions(!questions)
     }
 
     
