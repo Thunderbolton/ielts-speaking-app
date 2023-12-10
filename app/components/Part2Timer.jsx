@@ -4,11 +4,11 @@ import { useState } from "react"
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 
 
-export default function Part2Button () {
+export default function Part2Timer () {
     
     const renderTime = ({ remainingTime }) => {
     
-          return <div>
+        return <div>
                     <div className="timer">{remainingTime}</div>
                 </div>;
         }
@@ -38,7 +38,7 @@ export default function Part2Button () {
 
     return (        
         <>
-            <button onClick={toggleTimer}>{!showTimer ? 'Show timer' : 'Hide timer'}</button> 
+            <button onClick={toggleTimer}>{!showTimer ? 'Show prep timer' : 'Hide prep timer'}</button> 
             
             {showTimer && (
                 <div>                    
@@ -48,7 +48,7 @@ export default function Part2Button () {
                         
                     <CountdownCircleTimer
                         isPlaying={startTimer ? true : false}
-                        duration={10}
+                        duration={60}
                         key={key}
                         colors="green"
                     >

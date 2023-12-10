@@ -1,5 +1,6 @@
-import Part2Button from '../components/Part2Button';
+import Part2Timer from '../components/Part2Timer';
 import QuestionsList from '../components/QuestionsList';
+import TalkTimer from '../components/TalkTimer';
 
 import { promises as fs } from 'fs';
 
@@ -14,7 +15,8 @@ export default async function Part2() {
       <h2>Long turn</h2>
       <h2>3 - 4 minutes time icon</h2>
       <p className="mb-3">You will be shown a card asking you to talk about a particular topic. After a minute to prepare, you must speak for up to two minutes and then answer general questions on the topic.</p> 
-      <Part2Button />
+      <Part2Timer />
+      <TalkTimer />
       <QuestionsList topics={topics} />
     </main>
     
