@@ -7,8 +7,14 @@
     },
     {
         "id": 2,
-        "title": "Describe a family member you spend a lot of time with",
+        "title": "Describe a family member you spend a lot of time with.",
         "subtitle": "You should say:",
         "questions": ["- Who this person is", "- What you like to do together?", "- What kind of person they are", "- Explain why you spend a lot of time with them"]
+    },
+    {
+        "id": 3,
+        "title": "Describe a period of history you are interested in.",
+        "subtitle": "You should say:",
+        "questions": ["- When was it", "- What happened during that period", "- When did you first learn about it", "- Explain why you find it interesting"]
     }
 ]    

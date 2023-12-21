@@ -10,3 +10,7 @@ h3 {
 .timer {
     @apply text-6xl pb-2;
 }
+
+.btn-controls {
+    @apply mr-1;	
+}

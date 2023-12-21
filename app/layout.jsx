@@ -11,9 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       
-      <body className='text-gray-600 p-3 m-3'>
+      <body className='bg-[#FBF7FA] text-gray-600 p-9'>
         <Header />
-        <main>{children}</main>
+        <main className='w-11/12 m-auto'>{children}</main>
         <footer className='mt-4'>&copy; 2023</footer>
       </body>
       

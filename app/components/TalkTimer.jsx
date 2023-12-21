@@ -6,8 +6,14 @@ import { useState, useEffect } from "react"
 export default function TalkTimer() {
 
   const [timer, setTimer] = useState(0);
-  const [startTimer, setStartTimer] = useState(false) 
+  const [showTimer, setShowTimer] = useState(false);
+  const [startTimer, setStartTimer] = useState(false);
   
+  const toggleTimer = () => {
+    setShowTimer(!showTimer);
+    setStartTimer(false);
+  };
+
   const onPause = () => {
     setStartTimer(!startTimer);
   };  
@@ -33,16 +39,21 @@ export default function TalkTimer() {
 
   return (
       <>
-        <br />
-        <button onClick={() => setStartTimer(true)}>Start talk timer</button>
-        <button onClick={onPause}>Pause</button>
-        <button onClick={onReset}>Reset</button>
-        <br />    
-        <span>{("0" + Math.floor((timer / 60000) % 60)).slice(-1) + ":"}</span>
-        <span>{("0" + Math.floor((timer / 1000) % 60)).slice(-2)}</span> 
-        <br /> 
-      </>
-      
+      <br />
+      <button onClick={toggleTimer}>{!showTimer ? 'Show talk timer' : 'Hide talk timer'}</button>
+        {showTimer &&
+          <>
+            <br />
+            <button className="btn-controls" onClick={() => setStartTimer(true)}>Start</button>
+            <button className="btn-controls" onClick={onPause}>Pause</button>
+            <button className="btn-controls" onClick={onReset}>Reset</button>
+            <br />    
+            <span className="timer">{("0" + Math.floor((timer / 60000) % 60)).slice(-1) + ":"}</span>
+            <span className="timer">{("0" + Math.floor((timer / 1000) % 60)).slice(-2)}</span> 
+            <br /> 
+          </> 
+        }
+      </> 
   )
 }  
 

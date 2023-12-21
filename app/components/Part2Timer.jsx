@@ -42,9 +42,9 @@ export default function Part2Timer () {
             
             {showTimer && (
                 <div>                    
-                    <button onClick={onStart}>Start&nbsp;</button>
-                    <button onClick={onPause}>Pause&nbsp;</button>
-                    <button onClick={onReset}>Reset</button>
+                    <button className="btn-controls" onClick={onStart}>Start</button>
+                    <button className="btn-controls" onClick={onPause}>Pause</button>
+                    <button className="btn-controls" onClick={onReset}>Reset</button>
                         
                     <CountdownCircleTimer
                         isPlaying={startTimer ? true : false}

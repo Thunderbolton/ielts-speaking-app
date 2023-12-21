@@ -11,12 +11,13 @@ export default async function Part2() {
 
   return (
     <main>
-      <h1 className="mb-3 mt-3">Part 2</h1>
-      <h2>Long turn</h2>
-      <h2>3 - 4 minutes time icon</h2>
+      <h1 className="my-3">Part 2</h1>
+      <h2>Indiviual Long turn</h2>
+      <h4>3 - 4 minutes time icon</h4>
       <p className="mb-3">You will be shown a card asking you to talk about a particular topic. After a minute to prepare, you must speak for up to two minutes and then answer general questions on the topic.</p> 
       <Part2Timer />
       <TalkTimer />
+      <br />
       <QuestionsList topics={topics} />
     </main>
     

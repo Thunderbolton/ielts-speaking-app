@@ -1,0 +1,17 @@
+[    
+    {
+        "id": 1,
+        "title": "Advertising",
+        "questions": ["- What effects do advertising have on children?", "- Which method of advertising do you think is most popular?", "- How do advertisements capture people's attention?", "- What do you think of advertisements in your country?", "- How has the rise of digital platforms and social media transformed advertising strategies?"]
+    },
+    {
+        "id": 2,
+        "title": "Animals",
+        "questions": ["- What roles do animals typically play in your country?", "- How do human activities impact the lives of wild animals?", "- Is it common to own pets in your country?", "- What are some pros and cons associated with having a pet?", "- Should animals be kept in zoos?"]
+    },
+    {
+        "id": 3,
+        "title": "Art",
+        "questions": ["- Why do people find enjoyment in art?", "- What are some traditional forms of art in your country?", "- How important is art as a subject in children's education?", "- How frequently do you visit art galleries?", "- Why do certain works of art sell for high amounts, whereas others do not?"]
+    }
+] 
