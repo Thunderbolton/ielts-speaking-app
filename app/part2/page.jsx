@@ -1,4 +1,4 @@
-import Part2Timer from '../components/Part2Timer';
+import PrepTimer from '../components/PrepTimer';
 import QuestionsList from '../components/QuestionsList';
 import TalkTimer from '../components/TalkTimer';
 
@@ -11,13 +11,17 @@ export default async function Part2() {
 
   return (
     <main>
-      <h1 className="my-3">Part 2</h1>
-      <h2>Indiviual Long turn</h2>
-      <h4>3 - 4 minutes time icon</h4>
-      <p className="mb-3">You will be shown a card asking you to talk about a particular topic. After a minute to prepare, you must speak for up to two minutes and then answer general questions on the topic.</p> 
-      <Part2Timer />
-      <TalkTimer />
-      <br />
+      <section className='part-info'>
+        <h1 className="my-3">Part 2</h1>
+        <h2>Indiviual Long turn</h2>
+        <h4>3 - 4 minutes time icon</h4>
+        <p className="mb-3">You will be shown a card asking you to talk generally about a particular topic.</p>
+        <div className='timers'>
+          <PrepTimer />
+          <TalkTimer />
+        </div>
+      </section>
+      {/* <br /> */}
       <QuestionsList topics={topics} />
     </main>
     

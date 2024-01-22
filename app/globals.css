@@ -1,16 +1,87 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+    @apply bg-[#FBF7FA] text-gray-600 p-2 leading-relaxed
+}  
+
+h2 {
+    @apply font-bold
+}
 
 h3 {
     @apply my-2;
 }
 
-.timer {
-    @apply text-6xl pb-2;
+.wrapper {
+   @apply min-w-[calc(100%-3rem)] ms-auto me-auto    
+}
+  
+.part-info {
+    @apply max-w-[60ch] m-auto border-solid border-2 border-green-500
 }
 
-.btn-controls {
-    @apply mr-1;	
+.toggle-timer-parent {
+    @apply m-auto border-solid border-2 border-green-500
 }
+
+/* .toggle-timer-child {
+    @apply flex
+} */
+
+.timers {
+    @apply flex  
+}
+
+.prep-timer {
+    @apply text-[1.6rem] pb-1 sm:text-3xl md:text-5xl lg:text-7xl
+}
+
+.talk-timer {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl
+}
+
+/* .prep-displayed { 
+    @apply absolute bottom-60 left-0
+    
+} */
+
+/* .talk-displayed {
+    @apply absolute top-10 right-0
+    
+} */
+
+.btn-controls {
+    @apply mr-2 p-2 border-solid border-2 border-green-500;	
+}
+
+.small-screen-controls {
+   @apply fixed top-[375px] sm:top-[365px] flex 
+}
+
+.questions-toggle {
+    @apply mt-3 text-center	
+}
+
+/* .timer-circle {
+  @apply flex flex-col border-solid border-2 border-green-500
+} */
+
+/* .overall-container {
+    @apply border-solid border-2 border-green-500
+} */
+
+.large-screen-container {
+    @apply flex border-solid border-2 border-green-500 w-full
+}
+
+
+/* .small-screen-container {
+    @apply relative
+} */

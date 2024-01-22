@@ -13,11 +13,15 @@ export default function QuestionsList({ topics }) {
     
     return (
         <>  
-            {!questions ? <button onClick={onClick}>SHOW QUESTIONS</button> : <button onClick={onClick}>HIDE QUESTIONS</button>}
+           
+            <div className="questions-toggle">
+                 {!questions ? <button onClick={onClick}>Show Questions</button> : <button onClick={onClick}>Hide Questions</button>}
+            </div>
+            
 
             {questions &&
                 topics.map((topic) => (
-                    <div key={topic.id}>
+                    <div className="border-solid border-2 border-sky-500 w-6/12 m-auto p-2" key={topic.id}>
                         <h1 className="text-1xl text-gray-900 font-bold my-2 py-1">{topic.title}</h1>
                         <h3>{topic.subtitle}</h3>
 
