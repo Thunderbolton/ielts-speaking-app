@@ -13,7 +13,6 @@ export default function QuestionsList({ topics }) {
     
     return (
         <>  
-           
             <div className="questions-toggle">
                  {!questions ? <button onClick={onClick}>Show Questions</button> : <button onClick={onClick}>Hide Questions</button>}
             </div>
