@@ -39,7 +39,7 @@ h3 {
     @apply flex  
 }
 
-.prep-timer {
+.prep-timer-time {
     @apply text-[1.6rem] pb-1 sm:text-3xl md:text-5xl lg:text-7xl
 }
 

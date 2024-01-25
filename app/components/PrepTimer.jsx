@@ -21,7 +21,7 @@ export default function PrepTimer () {
     const renderTime = ({ remainingTime }) => {
     
         return <div>
-                    <div className="prep-timer">{remainingTime}</div>
+                    <div className="prep-timer-time">{remainingTime}</div>
                 </div>;
         }
 
@@ -61,7 +61,7 @@ export default function PrepTimer () {
                        
                         : 
                         
-                            <div className="fixed top-[335px] left-[6%] ">
+                            <div className="fixed top-[335px] left-[6%]">
                                 <button className="btn-controls" onClick={onStart}>Start</button>
                                 <button className="btn-controls" onClick={onPause}>Pause</button>
                                 <button className="btn-controls" onClick={onReset}>Reset</button>
