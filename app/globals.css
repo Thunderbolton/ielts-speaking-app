@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    @apply bg-[#FBF7FA] text-gray-600 p-2 leading-relaxed
+    @apply bg-[#FBF7FA] text-gray-600 leading-relaxed
 }  
 
 h2 {
@@ -24,11 +24,15 @@ h3 {
 }
   
 .part-info {
-    @apply max-w-[60ch] m-auto border-solid border-2 border-green-500
+    @apply max-w-[70ch] m-auto text-center
+}
+
+.title {
+    @apply [font-size:_clamp(1em,2vw,1.6em)]
 }
 
 .toggle-timer-parent {
-    @apply m-auto border-solid border-2 border-green-500
+    @apply m-auto p-2 [font-size:_clamp(0.9em,1.6vw,1.2em)] border-solid border-2 border-[#007984] rounded bg-[#eef9fb]  hover:bg-[#007984] hover:text-[#eef9fb] active:border-[#eef9fb]
 }
 
 /* .toggle-timer-child {
@@ -58,7 +62,7 @@ h3 {
 } */
 
 .btn-controls {
-    @apply mr-2 p-2 border-solid border-2 border-green-500;	
+    @apply mr-2 p-2 border-solid border-2 border-[#007984] rounded bg-[#eef9fb]  hover:bg-[#007984] hover:text-[#eef9fb] active:border-[#eef9fb];	
 }
 
 .small-screen-controls {
@@ -66,7 +70,7 @@ h3 {
 }
 
 .questions-toggle {
-    @apply mt-3 text-center	
+    @apply mt-3 text-center	[font-size:_clamp(0.8em,1.6vw,1.4em)]
 }
 
 /* .timer-circle {

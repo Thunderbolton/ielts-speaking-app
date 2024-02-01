@@ -50,7 +50,7 @@ export default function PrepTimer () {
     return (        
         <>
               <div className="toggle-timer-parent">
-                 <button onClick={toggleTimer}>{!showTimer ? 'Show prep timer' : 'Hide prep timer'}</button>
+                 <button onClick={toggleTimer}>{!showTimer ? 'Show Prep Timer' : 'Hide Prep Timer'}</button>
               </div>
             
             {showTimer && 

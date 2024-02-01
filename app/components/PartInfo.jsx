@@ -1,7 +1,6 @@
 import QuestionsList from '../components/QuestionsList';
 import TalkTimer from '../components/TalkTimer';
 import { promises as fs } from 'fs';
-// import PrepTimer from './PrepTimer';
 
 export default async function PartInfo({ title, subtitle, time, description, filepath, prepTimer }) {
 
@@ -12,10 +11,22 @@ export default async function PartInfo({ title, subtitle, time, description, fil
     return (
         <main>
             <section className='part-info'>
-                <h2 className="my-3">{title}</h2>
-                <h2>{subtitle}</h2>
-                <h4>{time}</h4>
-                <p className='mb-3'>{description}</p>
+                            <hr className='border-solid border-2 border-[#007984] mb-5 mt-2' />
+
+                <h2 className="my-0 title">{title}</h2>
+                <h2 className='[font-size:_clamp(0.9em,1.8vw,1.5em)]'>{subtitle}</h2>
+                <h4 className="my-1 [font-size:_clamp(0.9em,1.5vw,1.2em)]">{time}
+                    <span className='inline-block ml-1'>
+                        <img
+                            src="clock-svg.svg"
+                            width="22"
+                            height="22"
+                        />      
+                    </span>
+                </h4>
+                
+                <p className='mb-3 [font-size:_clamp(0.9em,1.5vw,1.2em)]'>{description}</p>
+                            <hr className='border-solid border-2 border-[#007984] mb-5 mt-2' />
                 <div className='timers'>                    
                     {prepTimer}  
                    <TalkTimer />

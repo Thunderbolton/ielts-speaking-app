@@ -16,6 +16,12 @@ module.exports = {
       'md': '650px',
       'lg': '950px'
     },
+    extend: {
+      colors: {
+        'turqoise-dark': '#0098a5',
+        'turqoise-light': '#e3f6f9',
+      },
+    }
   },
   plugins: [],
 }

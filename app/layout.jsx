@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header /> 
         <div className='wrapper'>
-          <main className='w-11/12 m-auto'>{children}</main>
+          <main className='w-11/12 m-auto selection:bg-[#007984] selection:text-[#eef9fb]'>{children}</main>
         </div>
         {/* <Footer /> */}
       </body>

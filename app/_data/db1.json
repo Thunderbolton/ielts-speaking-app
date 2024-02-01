@@ -2,16 +2,16 @@
     {
         "id": 1,
         "title": "Work",
-        "questions": ["What is your job?", "Where do you work?"]
+        "questions": ["- What is your job?", "- Where do you work?", "- What do you enjoy most about your work?", "- What are your responsibilities at work?", "- What is the most difficult part of your job?", "- Do you have a good relationship with your colleagues?"]
     },
     {
         "id": 2,
         "title": "Study",
-        "questions": ["What do you study?", "Where do you go to school?"]
+        "questions": ["- What do you study?", "- Where do/did you go to school?", "- What subjects do you enjoy most at school?", "- Did you have a favourite teacher at school?", "- Do you prefer studying alone or in a group?", "- Do you have a favorite study location or environment?"]
     },
     {
         "id": 3,
         "title": "Hometown",
-        "questions": ["Where is your hometown?", "What is your hometown like?"]
+        "questions": ["- Where is your hometown?", "- What is your hometown like?", "- Is your hometown a good place to live?", "- What is the oldest place in your hometown?", "- What is the local food like in your hometown?", "- Is your hometown a good place to raise children?"]
     }
 ]    
