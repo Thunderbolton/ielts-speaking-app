@@ -13,5 +13,156 @@
         "id": 3,
         "title": "Art",
         "questions": ["- Why do people find enjoyment in art?", "- What are some traditional forms of art in your country?", "- How important is art as a subject in children's education?", "- How frequently do you visit art galleries?", "- Why do certain works of art sell for high amounts, whereas others do not?"]
+    },
+    {
+        "id": 4,
+        "title": "Books",
+        "questions": ["- Do you prefer to read physical books, or e-books?", "- Are you good at story-telling?", "- What kinds of books do children like to read in your country?", "- Do you think children can learn a lot from reading books?", "- Are you more interested in reading fiction or non-fiction?"]
+    },
+    {
+        "id": 5,
+        "title": "Business",
+        "questions": ["- Are there any entrepreneurs or business leaders you admire?", "- How important is innovation in the success of a business?", "- Why do some people want to start their own business?", "- What advice would you give to someone starting their own business?", "- Do you think customer service is an important part of a company's success?" ]
+    },
+    {
+        "id": 6,
+        "title": "Childhood",
+        "questions": ["- Do you think it is important for a child to have many friends?", "- What kinds of dreams did you have as a child?", "- Can you recall any favorite games or activities from your childhood?", "- How did you celebrate birthdays or special occasions during your childhood?", "- Who were your childhood heroes or role models?" ]
+    },
+    {
+        "id": 7,
+        "title": "Culture",
+        "questions": ["- Do you think it is important to learn about other cultures?", "- Are there many types of traditional food in your country?", "- Do you think modern lifestyles impact the preservation of traditional practices?", "- Do you feel a sense of responsibility to pass on your cultural traditions to younger generations?", "- Is your country influenced by cultures of foreign countries?"]
+    }, 
+    {
+        "id": 8,
+        "title": "Decisions",
+        "questions": ["- What difficult decisions have you had to make in your life?", "- Do you like to get advice from other people when faced with a hard decision?", "- Do you like to make quick decisions?", "- Why do people change their minds after making a decision?", "- Should children be allowed to make their own decisions?"]
+    },
+    {
+        "id": 9,
+        "title": "Education",
+        "questions": ["- Do many people in your country study abroad?", "- How can technology help teachers and students in the classroom?", "- How important are parents in their child's education?", "- What are the advantages and disadvantages of online education?", "- Does the size of the class have an impact on the quality of education?"]
+    },
+    {
+        "id": 10,
+        "title": "Environment",
+        "questions": ["- How important is it to recycle?", "- What kinds of environmental problems is your country facing?", "- Should businesses play a role in protecting the environment?", "- Do you think climate change will influence our lives in the future?", "- Do you think schools should teach about protecting the environment?"]
+    },
+    {
+        "id": 11,
+        "title": "Family",
+        "questions": ["- How are families now different from families in the past?", "- How important is the extended family in your country?", "- How do family members care for the elder generations in your country?", "- Do children live in their family homes for many years?", "- Do you think the size of the family will change in the future in your country?"]
+    },   
+    {
+        "id": 12,
+        "title": "Food",
+        "questions": ["- Do people in your country like to eat at restaurants?", "- Do you think it is important to have a diet?", "- How popular is fast food in your country?", "- How has technology, such as food delivery apps and social media, impacted the way you experience food?", "- How do you think the way we eat will change in the future?"]
+    },   
+    {
+        "id": 13,
+        "title": "Health",
+        "questions": ["- Do you think it is important to maintin a healthy lifestyle?", "- In what ways do people do exercise in your country?", "-  How do you think elderly people should exercise?", "- What unhealthy habits do you know about?", "- Is it important to have a work/study-life balance in order to maintain good health?"]
+    },   
+    {
+        "id": 14,
+        "title": "Internet",
+        "questions": ["- Do you think our lives have been improved by the internet?", "- Do you think many problems are created by the internet?", "- How do you think the internet will change in the future?", "- How can the internet be made safe for children to use?", "- How can the internet be used effectively in schools?"]
+    },   
+    {
+        "id": 15,
+        "title": "Language",
+        "questions": ["- Why do you think people have difficulties learning languages?", "- Do you think foreign langauges should be learnt from an early age?", "- Does language change our perceptions of the world?", "- How has technology made language learning easier?", "- What challenges do people face when communicating in a language that is not their own?"]
+    }, 
+    {
+        "id": 16,
+        "title": "Leadership",
+        "questions": ["- What abilities are needed for an effective leader?", "- What can a leader do to stay popular?", "- What kinds of challenges do leaders face?", "- How do leaders maintain trust among their people?", "- How important is leadership in the workplace?"]
+    },   
+    {
+        "id": 17,
+        "title": "Leisure",
+        "questions": ["- What are some popular leisure activities in your country?", "- In what ways has technology influenced the way people engage in leisure activities?", "- How important are leisure activities in helping to reduce stress?", "- How do people enjoy free time by themselves?", "- What are the benefits of trying new hobbies?"]
+    },   
+    {
+        "id": 18,
+        "title": "Life Experience",
+        "questions": ["- What role do relationships with family and friends play in shaping our life experience?", "- What can we learn about life experience from other people?", "- Do you think it is important to make mistakes in life?", "- Can we gain life experience from books and movies?", "- Is it important to think a lot about our past memories?"]
+    },
+    {
+        "id": 19,
+        "title": "Money",
+        "questions": ["- How important is it to save money for the future?", "- Do you think having more money leads to more happiness?", "- In what ways do people tend to waste money?", "- How does advertising influence the way we spend money?", "- Do you think it important to give money to charity?"]
+    },      
+    {
+        "id": 20,
+        "title": "Movies",
+        "questions": ["- Is it more common to watch movies in the cinema or at home in your country?", "- How have streaming services changed the way people experience movies?", "- Do you consider movies to be a form of art or a form of entertainment?", "- Do you think it important for a movie to have good music?", "- Do you think technology has made movies better? In what ways?"]
+    },   
+    {
+        "id": 21,
+        "title": "Music",
+        "questions": ["- Do you think it is important for children to learn a musical instrument?", "- What kind of music do old people listen to in your country?", "- Is music important in traditional events or holidays in your country? ", "- Do you think music can help us to acquire new languages?", "- What kinds of effects does music have on our emotions?"]
+    },   
+    {
+        "id": 22,
+        "title": "Nature",
+        "questions": ["- What kinds of outdoor activities are popular in your country?", "- Should we be doing more to protect the natural environment?",  "- Do you think it will be harder to protect the environment in the future?", "- Can nature influence creativity in a person?", "- How popular is visiting national parks in your country?"]
+    },   
+    {
+        "id": 23,
+        "title": "News",
+        "questions": ["- How do people stay informed about current events in your country?", "- How has social media changed the way we consume news?", "- Is it important to stay up to date on international news in your country?", "- Why do you think people like to recieve good news?", "- In what ways will people get news in the future?"]
+    },   
+    {
+        "id": 24,
+        "title": "Photography",
+        "questions": ["- Do you think anybody can be a photographer?", "- In what ways have smartphones influenced how people take photos?", "- Is important to get permission from someone before sharing their photo online?", "- What impact do selfies have in modern society?",  "- How important are family photos in your country?"]
+    },   
+    {
+        "id": 25,
+        "title": "Shopping",
+        "questions": ["- Have shopping habits changed in recent years in your country?", "- Do you think advertising has an influence on the way people shop?", "- What do you imagine the future of online shopping to look like?", "- How does the availability of various payment methods, such as credit cards and digital wallets, influence people's shopping habits?", "- Is it necessary to read customer reviews when shopping online?"]
+    },   
+    {
+        "id": 26,
+        "title": "Sports",
+        "questions": ["- Are there many benefits of playing a sport?", "- Do you think people should play sports from an early age?", "- How do big sporting events such as the Olympics bring people together?", "- Is it a good idea for a country to host an international sporting event?", "- Is it important for athletes to be good role models?"]
+    }, 
+    {
+        "id": 27,
+        "title": "Technology",
+        "questions": ["- Do you think it is important to stay up to date with new technology?", "- What is the impact of modern technology on our daily lives?", "- Do you think people tend to spend too much money on technology these days?", "- How can old people benefit from using technology?", "- As technology continues to advance, should we be more concerned about data privacy and security?"]
+    },
+    {
+        "id": 28,
+        "title": "Television",
+        "questions": ["- Why do you think people like watching television?", "- Do you think children can be educated by television?", "- How different is TV now compared to 10 years ago?", "- Are there big differences between the shows young and old people watch?", "- How do you think television will change in the future?"]
+    },         
+    {
+        "id": 29,
+        "title": "Time Management",
+        "questions": ["- How do you manage your time in your daily life?", "- Do you think it is important to balance time between work/study and life?", "- In what ways do you think people tend to waste time?", "- How important is it to take breaks in your daily schedule?", "-In your country What do people think of being late?"]
+    },    
+    {
+        "id": 30,
+        "title": "Transportation",
+        "questions": ["- What are the most commonly used types of transportation in your country?", "- Should we use public transportation more, and use cars less?", "- What impact does transportation have on the environment?", "- Could transportation be improved in your country?", "- What do you think the future of transportation will look like?"]
+    },   
+    {
+        "id": 31,
+        "title": "Travel",
+        "questions": ["- Which places do people like to visit in your country?", "- Do you think travel is safer now than it was in the past?", "- How important is planning ahead of a trip?", "- What can be learned from travelling to foreign countries?",  "- Why do you think some people prefer travelling alone?"]
+    },
+    {
+        "id": 32,
+        "title": "Weather",
+        "questions": ["- Does your country experience all seasons?", "- Does the weather have an influence on our mood?", "- In your country are there any extreme weather events?", "- What types of outdoor activities can people do in cold weather?", "- How can we get up to date information about the weather?"]
+    },
+    {
+        "id": 33,
+        "title": "Work",
+        "questions": ["- In what ways does work create stress?", "- Is it more important to be happy at work, or have a high salary?", "- Why do you think people like to become freelancers/work for themselves?", "- Where can people work more productively, in the office or at home?", "- When do you think is the best age to retire?"]
     }
+
 ] 

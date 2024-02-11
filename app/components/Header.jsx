@@ -2,34 +2,28 @@
 
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import useWindowResize from './useWindowResize'
 
 export default function Header() {
 
     const [changedTitle, setChangeTitle] = useState('IELTS Speaking practice')
-    const [deviceSize, changeDeviceSize] = useState(window.innerWidth);
-
     const [isActive, setActive] = useState(false);
 
     const toggleClass = () => {
         setActive(true);
       };
-    
 
+    const { deviceWidth } = useWindowResize(); 
+    
     useEffect(() => {
-        const resizeW = () => changeDeviceSize(window.innerWidth);
-    
-        window.addEventListener("resize", resizeW);
-
         let title;
-        if(deviceSize >= 705) {
+        if(deviceWidth >= 705) {
             title = 'IELTS Speaking practice'
-        } else if(deviceSize < 705) {
+        } else if(deviceWidth < 705) {
             title = 'IELTS'
         }
 
         setChangeTitle(title);
-
-        return () => window.removeEventListener("resize", resizeW);
       });
 
 

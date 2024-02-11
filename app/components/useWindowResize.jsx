@@ -1,24 +1,23 @@
 import { useState, useEffect } from "react";
 
 
-export default function useWindowResize () {
+export default function useWindowResize() {
 
-    const [deviceSize, changeDeviceSize] = useState(window.innerWidth);
     const [isSmallScreen, setIsSmallScreen] = useState(false);
+    const [deviceWidth, setDeviceWidth] = useState(0)
+
+    const handleWindowResize = () => {
+      setDeviceWidth(window.innerWidth);
+    }
 
 
-    useEffect(() => {
-        const resizeW = () => changeDeviceSize(window.innerWidth);
+    useEffect(() => {    
+        handleWindowResize();      
     
-        window.addEventListener("resize", resizeW);
+        window.addEventListener("resize", handleWindowResize);
 
-        // if(deviceSize <= 640)
-        //     setIsSmallScreen(true)
-        // if(deviceSize > 640)
-        //     setIsSmallScreen(false)
+        return () => window.removeEventListener("resize", handleWindowResize);
+      }, []);
 
-        return () => window.removeEventListener("resize", resizeW);
-      });
-
-      return { deviceSize, isSmallScreen, setIsSmallScreen }
+      return { deviceWidth, isSmallScreen, setIsSmallScreen }
 }
