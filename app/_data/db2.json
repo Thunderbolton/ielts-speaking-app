@@ -1,49 +1,138 @@
-[    
+[
     {
         "id": 1,
-        "title": "Describe something you own which is very important to you.",
+        "name": "Advice",
+        "title": "Describe a piece of advice that had an impact on you.",
         "subtitle": "You should say:",
-        "questions": ["- Where you got it from", "- How long you have had it", "- What you use it for", "- Explain why it is important to you"]
+        "questions": ["- Who gave you the advice",
+        "- When you received it",
+        "- How it influenced your decisions or outlook",
+        "- Explain why this advice resonated with you"]
     },
     {
         "id": 2,
-        "title": "Describe a family member you spend a lot of time with.",
+        "name": "Childhood",
+        "title": "Describe a childhood memory you find special.",
         "subtitle": "You should say:",
-        "questions": ["- Who this person is", "- What you like to do together?", "- What kind of person they are", "- Explain why you spend a lot of time with them"]
+        "questions": ["- How old you were",
+        "- Who you were with",
+        "- Where the memory took place",
+        "- Explain why this childhood memory is special to you"]
     },
     {
         "id": 3,
-        "title": "Describe a period of history you are interested in.",
+        "name": "Dream",
+        "title": "Describe a childhood dream you had.",
         "subtitle": "You should say:",
-        "questions": ["- When was it", "- What happened during that period", "- When did you first learn about it", "- Explain why you find it interesting"]
+        "questions": ["- What the dream was",
+        "- When you first had this dream",
+        "- How this dream changed over time",
+        "- Explain the importance of working toward achieving childhood dreams"]
     },
     {
         "id": 4,
-        "title": "Describe a hobby or activity you enjoy in your free time.",
+        "name": "Family",
+        "title": "Describe a family member you spend a lot of time with.",
         "subtitle": "You should say:",
-        "questions": ["- When you first started it", "- How you got interested in it",  "- How often you engage in the hobby", "- Explain why this hobby is important to you"]
+        "questions": ["- Who this person is", 
+        "- What you like to do together?", 
+        "- What kind of person they are",
+        "- Explain why you spend a lot of time with them"]
     },
     {
         "id": 5,
-        "title": "Describe a memorable trip you took recently.",
+        "name": "Gift",
+        "title": "Describe a gift you recently received",
         "subtitle": "You should say:",
-        "questions": ["- Where you went",
-        "- Who you went with",
-        "- Your favourite moment from the trip",
-        "- Explain why this trip was significant to you"]
+        "questions": ["- What the gift was",
+        "- Who gave you the gift", 
+        "- Where you were when you received it", 
+        "- The occasion or reason for the gift", 
+        "- Explain how receiving the gift made you feel"]
     },
     {
         "id": 6,
-        "title": "Describe a technological device you rely on daily.",
+        "name": "Goal",
+        "title": "Describe a goal or achievement you're proud of.",
         "subtitle": "You should say:",
-        "questions": ["- What the device is",
-        "- When and where you first got it",
-        "- How you use it in your daily life",
-        "- Any specific features you find useful",
-        "- Explain why this device is important for you"]
+        "questions": ["- What the goal or achievement is",
+        "- When you achieved it",
+        "- The steps you took to reach it",
+        "- Explain how it has positively impacted your life"]
     },
     {
         "id": 7,
+        "name": "History",
+        "title": "Describe a period of history you are interested in.",
+        "subtitle": "You should say:",
+        "questions": ["- When was it", 
+        "- What happened during that period", 
+        "- When did you first learn about it", 
+        "- Explain why you find it interesting"]
+    },
+    {
+        "id": 8,
+        "name": "Hobby",
+        "title": "Describe a hobby or activity you enjoy in your free time.",
+        "subtitle": "You should say:",
+        "questions": ["- When you first started it", 
+        "- How you got interested in it",  
+        "- How often you engage in the hobby", 
+        "- Explain why this hobby is important to you"]
+    },
+    {
+        "id": 9,
+        "name": "Internet",
+        "title": "Describe a time where you found the answer to a question on the internet",
+        "subtitle": "You should say:",
+        "questions": ["- The question you were looking for an answer to",
+        "- Where you searched the internet to find the information",
+        "- How long it took to find the answer",
+        "- Explain why using the internet is useful for finding the answer"]
+    },
+    {
+        "id": 10,
+        "name": "Language",
+        "title": "Describe a language-related challenge you overcame.",
+        "subtitle": "You should say:",
+        "questions": ["- Which language it is", 
+        "- What the challenge was", 
+        "- How you overcame the challenge", 
+        "- Explain why overcoming this challenge benefited you"]
+    },
+    {
+        "id": 11,
+        "name": "Lesson",
+        "title": "Describe a valuable lesson you learned at school.",
+        "subtitle": "You should say:",
+        "questions": ["- The subject of the lesson",
+           "- When you learned it",
+           "- The impact it had on your understanding",
+           "- Explain why you still remember this lesson"]
+    },
+    {
+        "id": 12,
+        "name": "Meeting",
+        "title": "Describe a memorable encounter with a friend or family member.",
+        "subtitle": "You should say:",
+        "questions": ["- When and where it happened",
+        "- What you did together",
+        "- What emotions you experienced",
+        "- Explain why this memory is meaningful to you"]
+    },
+    {
+        "id": 13,
+        "name": "Morning Routine",
+        "title": "Describe your morning routine.",
+        "subtitle": "You should say:",
+        "questions": ["- What time you wake up",
+        "- The first thing you do after waking up",
+        "- Your typical breakfast",
+        "- Explain the importance of your morning routine to you"]
+    },
+    {
+        "id": 14,
+        "name": "Movie",
         "title": "Describe a movie that holds a lot of meaning for you.",
         "subtitle": "You should say:",
         "questions": ["- The name of the movie",
@@ -53,25 +142,28 @@
         "- Explain why this book or movie is meaningful to you"]
     },
     {
-        "id": 8,
-        "title": "Describe your morning routine.",
+        "id": 15,
+        "name": "Music",
+        "title": "Describe a music genre or artist that interests you.",
         "subtitle": "You should say:",
-        "questions": ["- What time you wake up",
-        "- The first thing you do after waking up",
-        "- Your typical breakfast",
-        "- Explain the importance of your morning routine to you"]
+        "questions": ["- The genre or artist",
+           "- What emotions the music makes you feel",
+           "- How and when this music became a part of your life",
+           "- Explain why this genre or artist is fascinating to you"]
     },
     {
-        "id": 9,
-        "title": "Describe a memorable encounter with a friend or family member.",
+        "id": 16,
+        "name": "Pet",
+        "title": "Describe an unusual or unique pet you would love to have.",
         "subtitle": "You should say:",
-        "questions": ["- When and where it happened",
-        "- What you did together",
-        "- What emotions you experienced",
-        "- Explain why this memory is meaningful to you"]
+        "questions": ["- The type of pet",
+        "- How you would imagine caring for the pet",
+        "- The benefits of having such a pet",
+        "- Explain why you find owning this kind of pet exciting"]
     },
     {
-        "id": 10,
+        "id": 17,
+        "name": "Skill",
         "title": "Describe a skill or talent you've developed over the years.",
         "subtitle": "You should say:",
         "questions": ["- What the skill or talent is",
@@ -81,105 +173,54 @@
         "- Explain the significance of this skill or talent in your life"]
     },
     {
-        "id": 11,
+        "id": 18,
+        "name": "Stranger",
+        "title": "Describe an interesting interaction you had with a stranger",
+        "subtitle": "You should say:",
+        "questions": ["- What kind of interaction it was", 
+        "- What the stranger looked like", 
+        "- Where you were when it happened", 
+        "- Explain why this encounter was interesting to you" ]
+    },
+    {
+        "id": 19,
+        "name": "Technology",
+        "title": "Describe a technological device you rely on daily.",
+        "subtitle": "You should say:",
+        "questions": ["- What the device is",
+        "- When and where you first got it",
+        "- How you use it in your daily life",
+        "- Any specific features you find useful",
+        "- Explain why this device is important for you"]
+    },
+    {
+        "id": 20,
+        "name": "Thing",
+        "title": "Describe something you own which is very important to you.",
+        "subtitle": "You should say:",
+        "questions": ["- Where you got it from", 
+        "- How long you have had it", 
+        "- What you use it for", 
+        "- Explain why it is important to you"]
+    },
+    {
+        "id": 21,
+        "name": "Travel",
+        "title": "Describe a memorable trip you took recently.",
+        "subtitle": "You should say:",
+        "questions": ["- Where you went",
+        "- Who you went with",
+        "- Your favourite moment from the trip",
+        "- Explain why this trip was significant to you"]
+    },
+    {
+        "id": 22,
+        "name": "Weather",
         "title": "Describe your favourite type of weather.",
         "subtitle": "You should say:",
         "questions": ["- What type of weather it is",
         "- How this type of weather makes you feel",
         "- Activities you enjoy doing in this weather",
         "- Explain why this weather is your favourite"]
-    },
-    {
-        "id": 12,
-        "title": "Describe a piece of advice that had an impact on you.",
-        "subtitle": "You should say:",
-        "questions": ["- Who gave you the advice",
-        "- When you received it",
-        "- How it influenced your decisions or outlook",
-        "- Explain why this advice resonated with you"]
-    },
-    {
-        "id": 13,
-        "title": "Describe a childhood memory you find special.",
-        "subtitle": "You should say:",
-        "questions": ["- How old you were",
-        "- Who you were with",
-        "- Where the memory took place",
-        "- Explain why this childhood memory is special to you"]
-    },
-    {
-        "id": 14,
-        "title": "Describe a valuable lesson you learned at school.",
-        "subtitle": "You should say:",
-        "questions": ["- The subject of the lesson",
-           "- When you learned it",
-           "- The impact it had on your understanding",
-           "- Explain why you still remember this lesson"]
-    },
-    {
-        "id": 15,
-        "title": "Describe a language-related challenge you overcame.",
-        "subtitle": "You should say:",
-        "questions": ["- Which language it is", "- What the challenge was", "- How you overcame the challenge", "- Explain why overcoming this challenge benefited you"]
-    },
-    {
-        "id": 16,
-        "title": "Describe a music genre or artist that interests you.",
-        "subtitle": "You should say:",
-        "questions": ["- The genre or artist",
-           "- What emotions the music makes you feel",
-           "- How and when this music became a part of your life",
-           "- Explain why this genre or artist is fascinating to you"]
-    },
-    {
-        "id": 17,
-        "title": "Describe a childhood dream you had.",
-        "subtitle": "You should say:",
-        "questions": ["- What the dream was",
-        "- When you first had this dream",
-        "- How this dream changed over time",
-        "- Explain the importance of working toward achieving childhood dreams"]
-    },
-    {
-        "id": 18,
-        "title": "Describe an unusual or unique pet you would love to have.",
-        "subtitle": "You should say:",
-        "questions": ["- The type of pet",
-        "- How you would imagine caring for the pet",
-        "- The benefits of having such a pet",
-        "- Explain why you find owning this kind of pet exciting"]
-    },
-    {
-        "id": 19,
-        "title": "Describe a goal or achievement you're proud of.",
-        "subtitle": "You should say:",
-        "questions": ["- What the goal or achievement is",
-        "- When you achieved it",
-        "- The steps you took to reach it",
-        "- Explain how it has positively impacted your life"]
-    },
-    {
-        "id": 20,
-        "title": "Describe a gift you recently received",
-        "subtitle": "You should say:",
-        "questions": ["- What the gift was",
-        "- Who gave you the gift", "Where you were when you received it", "- The occasion or reason for the gift", "- Explain how receiving the gift made you feel"]
-    },
-    {
-        "id": 21,
-        "title": "Describe an interesting interaction you had with a stranger",
-        "subtitle": "You should say:",
-        "questions": ["- What kind of interaction it was", "- What the stranger looked like", "- Where you were when it happened", "- Explain why this encounter was interesting to you" ]
-    },
-    {
-        "id": 22,
-        "title": "Describe a time where you found the answer to a question on the internet",
-        "subtitle": "You should say:",
-        "questions": ["- The question you were looking for an answer to",
-        "- Where you searched the internet to find the information",
-        "- How long it took to find the answer",
-        "- Explain why using the internet is useful for finding the answer"]
-    }
-    
-    
-]    
+    } 
+]   

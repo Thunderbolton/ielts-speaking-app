@@ -21,6 +21,7 @@ export default function QuestionsList({ topics }) {
             {questions &&
                 topics.map((topic) => (
                     <div className="border-solid border-2 border-[#007984] w-6/12 m-auto p-2 my-3 text-[#003c42] bg-[#eef9fb] text-center" key={topic.id}>
+                        <h1 className="text-2xl text-gray-600 font-bold my-2 py-1 title">{topic.name}</h1>
                         <h1 className="text-1xl text-gray-600 font-bold my-2 py-1 title">{topic.title}</h1>
                         <h3 className="[font-size:_clamp(0.9em,1.5vw,1.2em)]">{topic.subtitle}</h3>
 
