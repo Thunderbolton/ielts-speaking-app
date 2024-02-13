@@ -1,17 +1,305 @@
 [
-    {
-        "id": 1,
-        "title": "Work",
-        "questions": ["- What is your job?", "- Where do you work?", "- What do you enjoy most about your work?", "- What are your responsibilities at work?", "- What is the most difficult part of your job?", "- Do you have a good relationship with your colleagues?"]
-    },
-    {
-        "id": 2,
-        "title": "Study",
-        "questions": ["- What do you study?", "- Where do/did you go to school?", "- What subjects do you enjoy most at school?", "- Did you have a favourite teacher at school?", "- Do you prefer studying alone or in a group?", "- Do you have a favorite study location or environment?"]
-    },
-    {
-        "id": 3,
-        "title": "Hometown",
-        "questions": ["- Where is your hometown?", "- What is your hometown like?", "- Is your hometown a good place to live?", "- What is the oldest place in your hometown?", "- What is the local food like in your hometown?", "- Is your hometown a good place to raise children?"]
-    }
-]    
+  {
+    "id": 1,
+    "title": "Birthdays",
+    "questions": [
+      "- How do you usually celebrate your birthday?",
+      "- What was the best birthday present you ever received?",
+      "- Do you enjoy receiving gifts or giving them more?",
+      "- Do you have a favourite birthday memory?"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Books",
+    "questions": [
+      "- What is the last book you read?",
+      "- Do you have a favourite author or genre?",
+      "- How often do you read?",
+      "- Which book did you like when you were young?",
+      "- Do you like to talk about books with family and friends?"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Computers",
+    "questions": [
+      "- What type of computer do you use?",
+      "- How often do you use your computer?",
+      "- Do you prefer laptops or desktop PCs?",
+      "- What software or applications do you use the most on your computer?",
+      "- Have you ever built your own computer?"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Daily Routine",
+    "questions": [
+      "- What is your typical morning routine?",
+      "- Do you have any daily habits?",
+      "- How do you stay organized throughout the day?",
+      "- What time do you usually go to bed and wake up?",
+      "- How do you like to relax at the end of the day?"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Education",
+    "questions": [
+      "- What is/was your favourite subject in school?",
+      "- Do you enjoy learning new things?",
+      "- What was your best school memory?",
+      "- Did you have a favourite teacher?",
+      "- How do you feel about online learning?"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Family",
+    "questions": [
+      "- How many siblings do you have?",
+      "- Do you have any family traditions?",
+      "- Are you similar to any of your family members?",
+      "- How often do you see your extended family?",
+      "- What is a memorable family event you've experienced?"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Fashion",
+    "questions": [
+      "- How would you describe your fashion style?",
+      "- Do you like to follow the latest fashion trends?",
+      "- Do you have a favourite piece of clothing?",
+      "- Do you enjoy shopping for clothes?",
+      "- Are there any fashion designers you admire?"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Food",
+    "questions": [
+      "- What is your favourite dish?",
+      "- Do you enjoy cooking?",
+      "- Are there any foods you dislike?",
+      "- What is a traditional dish from your country?",
+      "- Do you have a healthy diet?"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Friends",
+    "questions": [
+      "- How do you make new friends?",
+      "- What qualities are important for you in a friend?",
+      "- Do you prefer having a few close friends or many less close friendships?",
+      "- How do you like to spend time with your friends?",
+      "- Have you ever made friends through social media?"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Games",
+    "questions": [
+      "- What kind of video games do you like?",
+      "- Which games are you best at?",
+      "- Do you enjoy playing games online?",
+      "- Do you play games to reduce stress?",
+      "- Did you play games when you were a child?"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Hobbies",
+    "questions": [
+      "- What do you like to do in your free time?",
+      "- When was the last time you started a new hobby?",
+      "- How did you discover your favourite hobby?",
+      "- How often do you engage in your favourite hobby?",
+      "- Are there any new hobbies you'd like to try?"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Hometown",
+    "questions": [
+      "- Where is your hometown?",
+      "- What is your hometown like?",
+      "- Is your hometown a good place to live?",
+      "- What is the oldest place in your hometown?",
+      "- What is the local food like in your hometown?",
+      "- Is your hometown a good place to raise children?"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Money",
+    "questions": [
+      "- Are you good at saving money?",
+      "- Do you want to have a lot of money?",
+      "- What is the next thing you want to buy?",
+      "- Do you prefer to spend or save money?",
+      "- What kinds of things did you buy when you were younger?"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Movies",
+    "questions": [
+      "- What was the last movie you watched?",
+      "- Do you have a favourite movie?",
+      "- Are you interested in all types of movies?",
+      "- Who is your favourite actor or actress?",
+      "- What is a movie you can watch over and over again?"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Music",
+    "questions": [
+      "- What genre of music do you enjoy?",
+      "- Do you play any musical instruments?",
+      "- Who is your favourite music artist?",
+      "- Have you ever been to a music concert?",
+      "- How does music make you feel?"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Pets",
+    "questions": [
+      "- Do you have any pets?",
+      "- What is your favourite type of pet?",
+      "- How did you choose your pet's name?",
+      "- Do you enjoy the process of taking care of a pet?",
+      "- Do you think having pets can make us happy?"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Shopping",
+    "questions": [
+      "- Where do you usually go shopping?",
+      "- Do you enjoy shopping for clothes or accessories?",
+      "- Do you prefer to shop online or in-store?",
+      "- What is the last thing you bought?",
+      "- Do you like to go shopping with other people or by yourself?",
+      "- Is there something you always buy when you go shopping?"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Social Media",
+    "questions": [
+      "- Which social media platforms do you use?",
+      "- How often do you check your social media accounts?",
+      "- Do you think social media has more positive or negative effects?",
+      "- Have you ever taken a break from social media?",
+      "- What type of content do you enjoy sharing on social media?"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Sports",
+    "questions": [
+      "- Are you a fan of any particular sport?",
+      "- Have you ever played any sports?",
+      "- Do you prefer watching sports or playing them?",
+      "- What is your favourite sports team?",
+      "- Have you attended any live sports events?"
+   
+
+ ]
+  },
+  {
+    "id": 20,
+    "title": "Study",
+    "questions": [
+      "- What do you study?",
+      "- Where do/did you go to school?",
+      "- What subjects do you enjoy most at school?",
+      "- Did you have a favourite teacher at school?",
+      "- Do you prefer studying alone or in a group?",
+      "- Do you have a favourite study location or environment?"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Technology",
+    "questions": [
+      "- What is your favourite technological device?",
+      "- How do you use technology in your daily life?",
+      "- Are you interested in the latest technology?",
+      "- Do you think technology has more advantages or disadvantages?",
+      "- How comfortable are you with using new technologies?"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Transportation",
+    "questions": [
+      "- How do you usually commute to work or school?",
+      "- Do you prefer taking a train or going by car?",
+      "- Have you ever taken a long road trip?",
+      "- Is there a type of transportation you dislike?",
+      "- What do you think of the transportation system in your local area?"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Travel",
+    "questions": [
+      "- How often do you visit new places?",
+      "- What is your favourite travel destination?",
+      "- Do you prefer beach vacations or city trips?",
+      "- How do you plan your trips?",
+      "- What was your most memorable travel experience?"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "TV",
+    "questions": [
+      "- Do you have a favourite TV show?",
+      "- What genre of TV shows do you enjoy?",
+      "- Who is your favourite actor or actress in a TV show?",
+      "- What is the last TV series you watched?",
+      "- Have you ever watched a TV series from start to finish?"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Weather",
+    "questions": [
+      "- What is your favourite type of weather?",
+      "- How does the weather affect your mood?",
+      "- Do you prefer hot or cold weather?",
+      "- Have you ever experienced extreme weather conditions?",
+      "- What activities do you like to do on a rainy day?"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Weddings",
+    "questions": [
+      "- Why do people want to hold weddings?",
+      "- Have you ever been to a wedding?",
+      "- Do you enjoy attending weddings?",
+      "- Do you think weddings are expensive?",
+      "- Should people bring gifts to weddings?",
+      "- How many guests attend weddings in your country?"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Work",
+    "questions": [
+      "- What is your job?",
+      "- Where do you work?",
+      "- What do you enjoy most about your work?",
+      "- What are your responsibilities at work?",
+      "- What is the most difficult part of your job?",
+      "- Do you have a good relationship with your colleagues?"
+    ]
+  }
+]
