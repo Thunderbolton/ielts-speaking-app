@@ -8,12 +8,12 @@ import SmallScreenControls from "./SmallScreenControls"
 
 export default function PrepTimer () {
 
-    const { deviceSize, isSmallScreen, setIsSmallScreen } = useWindowResize()
+    const { deviceWidth, isSmallScreen, setIsSmallScreen } = useWindowResize()
 
     useEffect(() => {
-        if(deviceSize <= 950)
+        if(deviceWidth <= 950)
             setIsSmallScreen(true)
-        if(deviceSize > 950)
+        if(deviceWidth > 950)
             setIsSmallScreen(false)
       });
 
@@ -73,8 +73,8 @@ export default function PrepTimer () {
                                     isPlaying={startTimer ? true : false}
                                     duration={60}
                                     key={key}
-                                    size={deviceSize >= 950 ? 180 : deviceSize >= 650 ? 120 : deviceSize >= 500 ? 90 : 60}
-                                    strokeWidth={deviceSize >= 500 ? 6 : 4}
+                                    size={deviceWidth >= 950 ? 180 : deviceWidth >= 650 ? 120 : deviceWidth >= 500 ? 90 : 60}
+                                    strokeWidth={deviceWidth >= 500 ? 6 : 4}
                                     colors="green"
                                 >
                                 {renderTime}

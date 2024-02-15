@@ -7,12 +7,12 @@ import SmallScreenControls from "./SmallScreenControls"
 
 export default function TalkTimer() {
 
-  const { deviceSize, isSmallScreen, setIsSmallScreen } = useWindowResize()
+  const { deviceWidth, isSmallScreen, setIsSmallScreen } = useWindowResize()
 
     useEffect(() => {
-        if(deviceSize <= 950)
+        if(deviceWidth <= 950)
             setIsSmallScreen(true)
-        if(deviceSize > 950)
+        if(deviceWidth > 950)
             setIsSmallScreen(false)
       });
 

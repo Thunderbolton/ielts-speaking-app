@@ -27,8 +27,18 @@ h3 {
     @apply max-w-[70ch] m-auto text-center
 }
 
-.title {
-    @apply [font-size:_clamp(1em,2vw,1.6em)]
+
+.outline-text {
+    text-shadow: -1px -1px 1px #007984, 1px -1px 1px #007984, -1px 1px 1px #007984, 1px 1px 1px #007984
+}
+.heading-lg {
+    @apply text-2xl font-bold my-2 pb-4 
+    [font-size:_clamp(1.2em,2vw,1.8em)]
+}
+
+/* drop-shadow-[0_1.2px_1.2px_rgba(238,249,251,0)] */
+.heading-md {
+    @apply text-2xl text-[#eff9fb] font-bold my-2 py-1 [font-size:_clamp(1em,1.8vw,1.5em)]
 }
 
 .toggle-timer-parent {

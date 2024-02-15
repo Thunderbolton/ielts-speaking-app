@@ -17,7 +17,7 @@ export default function useWindowResize() {
         window.addEventListener("resize", handleWindowResize);
 
         return () => window.removeEventListener("resize", handleWindowResize);
-      }, []);
+      }, );
 
       return { deviceWidth, isSmallScreen, setIsSmallScreen }
 }
