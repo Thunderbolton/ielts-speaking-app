@@ -32,17 +32,19 @@ h3 {
     text-shadow: -1px -1px 1px #007984, 1px -1px 1px #007984, -1px 1px 1px #007984, 1px 1px 1px #007984
 }
 .heading-lg {
-    @apply text-2xl font-bold my-2 pb-4 
-    [font-size:_clamp(1.2em,2vw,1.8em)]
+    @apply text-2xl font-bold my-4 pb-4 [font-size:_clamp(1.2em,2vw,1.8em)]
 }
 
-/* drop-shadow-[0_1.2px_1.2px_rgba(238,249,251,0)] */
 .heading-md {
-    @apply text-2xl text-[#eff9fb] font-bold my-2 py-1 [font-size:_clamp(1em,1.8vw,1.5em)]
+    @apply text-2xl text-[#eff9fb] font-bold my-6 py-1 [font-size:_clamp(1em,1.8vw,1.5em)]
+}
+
+.part-info-time {
+   @apply my-1 italic [font-size:_clamp(0.9em,1.5vw,1.2em)]
 }
 
 .toggle-timer-parent {
-    @apply m-auto p-2 [font-size:_clamp(0.9em,1.6vw,1.2em)] border-solid border-2 border-[#007984] rounded bg-[#eef9fb]  hover:bg-[#007984] hover:text-[#eef9fb] active:border-[#eef9fb]
+    @apply m-auto p-2 [font-size:_clamp(0.9em,1.6vw,1.2em)] border-solid border-2 border-[#007984] rounded bg-[#eef9fb] hover:bg-[#007984] hover:text-[#eef9fb] active:border-[#eef9fb]
 }
 
 /* .toggle-timer-child {
@@ -80,7 +82,7 @@ h3 {
 }
 
 .questions-toggle {
-    @apply mt-3 text-center	[font-size:_clamp(0.8em,1.6vw,1.4em)]
+    @apply mt-3 text-center	[font-size:_clamp(0.9em,1.6vw,1.2em)]
 }
 
 /* .timer-circle {

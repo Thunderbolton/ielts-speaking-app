@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Advice",
-        "title": "Describe a piece of advice that had an impact on you.",
+        "title": "Advice",
+        "prompt": "Describe a piece of advice that had an impact on you.",
         "subtitle": "You should say:",
         "questions": ["- Who gave you the advice",
         "- When you received it",
@@ -11,8 +11,8 @@
     },
     {
         "id": 2,
-        "name": "Childhood",
-        "title": "Describe a childhood memory you find special.",
+        "title": "Childhood",
+        "prompt": "Describe a childhood memory you find special.",
         "subtitle": "You should say:",
         "questions": ["- How old you were",
         "- Who you were with",
@@ -21,8 +21,8 @@
     },
     {
         "id": 3,
-        "name": "Dream",
-        "title": "Describe a childhood dream you had.",
+        "title": "Dream",
+        "prompt": "Describe a childhood dream you had.",
         "subtitle": "You should say:",
         "questions": ["- What the dream was",
         "- When you first had this dream",
@@ -31,8 +31,8 @@
     },
     {
         "id": 4,
-        "name": "Family",
-        "title": "Describe a family member you spend a lot of time with.",
+        "title": "Family",
+        "prompt": "Describe a family member you spend a lot of time with.",
         "subtitle": "You should say:",
         "questions": ["- Who this person is", 
         "- What you like to do together?", 
@@ -41,8 +41,8 @@
     },
     {
         "id": 5,
-        "name": "Gift",
-        "title": "Describe a gift you recently received",
+        "title": "Gift",
+        "prompt": "Describe a gift you recently received",
         "subtitle": "You should say:",
         "questions": ["- What the gift was",
         "- Who gave you the gift", 
@@ -52,8 +52,8 @@
     },
     {
         "id": 6,
-        "name": "Goal",
-        "title": "Describe a goal or achievement you're proud of.",
+        "title": "Goal",
+        "prompt": "Describe a goal or achievement you're proud of.",
         "subtitle": "You should say:",
         "questions": ["- What the goal or achievement is",
         "- When you achieved it",
@@ -62,8 +62,8 @@
     },
     {
         "id": 7,
-        "name": "History",
-        "title": "Describe a period of history you are interested in.",
+        "title": "History",
+        "prompt": "Describe a period of history you are interested in.",
         "subtitle": "You should say:",
         "questions": ["- When was it", 
         "- What happened during that period", 
@@ -72,8 +72,8 @@
     },
     {
         "id": 8,
-        "name": "Hobby",
-        "title": "Describe a hobby or activity you enjoy in your free time.",
+        "title": "Hobby",
+        "prompt": "Describe a hobby or activity you enjoy in your free time.",
         "subtitle": "You should say:",
         "questions": ["- When you first started it", 
         "- How you got interested in it",  
@@ -82,8 +82,8 @@
     },
     {
         "id": 9,
-        "name": "Internet",
-        "title": "Describe a time where you found the answer to a question on the internet",
+        "title": "Internet",
+        "prompt": "Describe a time where you found the answer to a question on the internet",
         "subtitle": "You should say:",
         "questions": ["- The question you were looking for an answer to",
         "- Where you searched the internet to find the information",
@@ -92,8 +92,8 @@
     },
     {
         "id": 10,
-        "name": "Language",
-        "title": "Describe a language-related challenge you overcame.",
+        "title": "Language",
+        "prompt": "Describe a language-related challenge you overcame.",
         "subtitle": "You should say:",
         "questions": ["- Which language it is", 
         "- What the challenge was", 
@@ -102,8 +102,8 @@
     },
     {
         "id": 11,
-        "name": "Lesson",
-        "title": "Describe a valuable lesson you learned at school.",
+        "title": "Lesson",
+        "prompt": "Describe a valuable lesson you learned at school.",
         "subtitle": "You should say:",
         "questions": ["- The subject of the lesson",
            "- When you learned it",
@@ -112,8 +112,8 @@
     },
     {
         "id": 12,
-        "name": "Meeting",
-        "title": "Describe a memorable encounter with a friend or family member.",
+        "title": "Meeting",
+        "prompt": "Describe a memorable encounter with a friend or family member.",
         "subtitle": "You should say:",
         "questions": ["- When and where it happened",
         "- What you did together",
@@ -122,8 +122,8 @@
     },
     {
         "id": 13,
-        "name": "Morning Routine",
-        "title": "Describe your morning routine.",
+        "title": "Morning Routine",
+        "prompt": "Describe your morning routine.",
         "subtitle": "You should say:",
         "questions": ["- What time you wake up",
         "- The first thing you do after waking up",
@@ -132,8 +132,8 @@
     },
     {
         "id": 14,
-        "name": "Movie",
-        "title": "Describe a movie that holds a lot of meaning for you.",
+        "title": "Movie",
+        "prompt": "Describe a movie that holds a lot of meaning for you.",
         "subtitle": "You should say:",
         "questions": ["- The name of the movie",
         "- When you first saw it",
@@ -143,8 +143,8 @@
     },
     {
         "id": 15,
-        "name": "Music",
-        "title": "Describe a music genre or artist that interests you.",
+        "title": "Music",
+        "prompt": "Describe a music genre or artist that interests you.",
         "subtitle": "You should say:",
         "questions": ["- The genre or artist",
            "- What emotions the music makes you feel",
@@ -153,8 +153,8 @@
     },
     {
         "id": 16,
-        "name": "Pet",
-        "title": "Describe an unusual or unique pet you would love to have.",
+        "title": "Pet",
+        "prompt": "Describe an unusual or unique pet you would love to have.",
         "subtitle": "You should say:",
         "questions": ["- The type of pet",
         "- How you would imagine caring for the pet",
@@ -163,8 +163,8 @@
     },
     {
         "id": 17,
-        "name": "Skill",
-        "title": "Describe a skill or talent you've developed over the years.",
+        "title": "Skill",
+        "prompt": "Describe a skill or talent you've developed over the years.",
         "subtitle": "You should say:",
         "questions": ["- What the skill or talent is",
         "- How you started developing it",
@@ -174,8 +174,8 @@
     },
     {
         "id": 18,
-        "name": "Stranger",
-        "title": "Describe an interesting interaction you had with a stranger",
+        "title": "Stranger",
+        "prompt": "Describe an interesting interaction you had with a stranger",
         "subtitle": "You should say:",
         "questions": ["- What kind of interaction it was", 
         "- What the stranger looked like", 
@@ -184,8 +184,8 @@
     },
     {
         "id": 19,
-        "name": "Technology",
-        "title": "Describe a technological device you rely on daily.",
+        "title": "Technology",
+        "prompt": "Describe a technological device you rely on daily.",
         "subtitle": "You should say:",
         "questions": ["- What the device is",
         "- When and where you first got it",
@@ -195,8 +195,8 @@
     },
     {
         "id": 20,
-        "name": "Thing",
-        "title": "Describe something you own which is very important to you.",
+        "title": "Thing",
+        "prompt": "Describe something you own which is very important to you.",
         "subtitle": "You should say:",
         "questions": ["- Where you got it from", 
         "- How long you have had it", 
@@ -205,8 +205,8 @@
     },
     {
         "id": 21,
-        "name": "Travel",
-        "title": "Describe a memorable trip you took recently.",
+        "title": "Travel",
+        "prompt": "Describe a memorable trip you took recently.",
         "subtitle": "You should say:",
         "questions": ["- Where you went",
         "- Who you went with",
@@ -215,12 +215,12 @@
     },
     {
         "id": 22,
-        "name": "Weather",
-        "title": "Describe your favourite type of weather.",
+        "title": "Weather",
+        "prompt": "Describe your favourite type of weather.",
         "subtitle": "You should say:",
         "questions": ["- What type of weather it is",
         "- How this type of weather makes you feel",
         "- Activities you enjoy doing in this weather",
         "- Explain why this weather is your favourite"]
     } 
-]   
+]

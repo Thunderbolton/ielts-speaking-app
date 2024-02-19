@@ -11,11 +11,11 @@ export default async function PartInfo({ title, subtitle, time, description, fil
     return (
         <main>
             <section className='part-info'>
-                            <hr className='border-solid border-2 border-[#007984] mb-5 mt-2' />
+                <hr className='border-solid border-2 border-[#007984] mb-5 mt-2' />
 
-                <h2 className="my-0 title">{title}</h2>
+                <h2 className="[font-size:_clamp(1.2em,2vw,1.8em)]">{title}</h2>
                 <h2 className='[font-size:_clamp(0.9em,1.8vw,1.5em)]'>{subtitle}</h2>
-                <h4 className="my-1 [font-size:_clamp(0.9em,1.5vw,1.2em)]">{time}
+                <h4 className="part-info-time">{time}
                     <span className='inline-block ml-1'>
                         <img
                             src="clock-svg.svg"
@@ -26,7 +26,7 @@ export default async function PartInfo({ title, subtitle, time, description, fil
                 </h4>
                 
                 <p className='mb-3 [font-size:_clamp(0.9em,1.5vw,1.2em)]'>{description}</p>
-                            <hr className='border-solid border-2 border-[#007984] mb-5 mt-2' />
+                    <hr className='border-solid border-2 border-[#007984] mb-5 mt-2' />
                 <div className='timers'>                    
                     {prepTimer}  
                    <TalkTimer />
