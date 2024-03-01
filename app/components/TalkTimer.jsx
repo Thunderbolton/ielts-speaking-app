@@ -55,25 +55,32 @@ export default function TalkTimer() {
 
   return (
       <>
-      <div className="toggle-timer-parent">
-        <button onClick={toggleTimer}>{!showTimer ? 'Show talk timer' : 'Hide talk timer'}</button>
-      </div>
-      
+        <button className="toggle-timer-parent" 
+        onClick={toggleTimer} >{!showTimer ? 'Show talk timer' : isSmallScreen ?  'Hide' : 'Hide'}</button>
+                                
         {showTimer &&
         <>
           {isSmallScreen ? 
-
-            <SmallScreenControls className="small-screen-controls right-[6%] sm:right-[7.7%]" onStart={onStart} onPause={onPause} onReset={onReset}/> 
-            
+            <>
+             <SmallScreenControls className="small-screen-controls right-[6%] sm:right-[7.7%]" onStart={onStart} onPause={onPause} onReset={onReset}/>
+             <img
+                    src="hide-svg.svg"
+                    width={deviceWidth >= 650 ? 30 : deviceWidth >= 500 ? 25 : 20 }
+                    height="20"
+                    className="fixed top-[390px] sm:top-[370px] mx-4 right-[6.7%] sm:right-[6.4%] sm:mx-8 md:right-[7.4%]"
+                    onClick={toggleTimer}
+                /> 
+                     
+            </>
           :  
-            <div className="fixed top-[335px] right-[6%]">
-              <button className="btn-controls sticky h-full" onClick={() => setStartTimer(true)}>Start</button>
-              <button className="btn-controls sticky h-full" onClick={onPause}>Pause</button>
-              <button className="btn-controls sticky h-full" onClick={onReset}>Reset</button>
+            <div className="fixed top-[405px] right-[6%]">
+              <button className="btn-controls" onClick={() => setStartTimer(true)}>Start</button>
+              <button className="btn-controls" onClick={onPause}>Pause</button>
+              <button className="btn-controls" onClick={onReset}>Reset</button>
             </div>
             }
             
-              <div className="fixed top-[405px] right-[7%]">
+              <div className="fixed top-[465px] right-[7%]">
                 <span className="talk-timer">{("0" + Math.floor((timer / 60000) % 60)).slice(-1) + ":"}</span>
                 <span className="talk-timer">{("0" + Math.floor((timer / 1000) % 60)).slice(-2)}</span>
               </div>                  

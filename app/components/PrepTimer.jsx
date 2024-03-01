@@ -30,8 +30,8 @@ export default function PrepTimer () {
     const [key, setKey] = useState(0);
 
     const toggleTimer = () => {
-            setShowTimer(!showTimer);
-        };
+        setShowTimer(!showTimer);
+    };
 
     const onStart = () => {
        setStartTimer(true);
@@ -49,26 +49,34 @@ export default function PrepTimer () {
     
     return (        
         <>
-              <div className="toggle-timer-parent">
-                 <button onClick={toggleTimer}>{!showTimer ? 'Show Prep Timer' : 'Hide Prep Timer'}</button>
-              </div>
+            <button className="toggle-timer-parent" 
+           onClick={toggleTimer} >{!showTimer ? 'Show prep timer' : isSmallScreen ?  'Hide' : 'Hide'}</button>
             
             {showTimer && 
                 <>
                     {isSmallScreen ?
-                    
-                             <SmallScreenControls className="small-screen-controls left-[6%] sm:left-[7.7%]" onStart={onStart} onPause={onPause} onReset={onReset}/>
+                        <>
+                            <SmallScreenControls className="small-screen-controls left-[6%] sm:left-[7.7%]" onStart={onStart} onPause={onPause} onReset={onReset}/>
+                            <img
+                                src="hide-svg.svg"
+                                width={deviceWidth >= 650 ? 30 : deviceWidth >= 500 ? 25 : 20 }
+                                height="20"
+                                className="fixed top-[390px] sm:top-[370px] mx-4 left-[6.9%] sm:left-[6.5%] sm:mx-8 md:left-[7.5%]"
+                                onClick={toggleTimer}
+                            /> 
+                        </>        
+                        
                        
                         : 
                         
-                            <div className="fixed top-[335px] left-[6%]">
+                            <div className="fixed top-[405px] left-[6%]">
                                 <button className="btn-controls" onClick={onStart}>Start</button>
                                 <button className="btn-controls" onClick={onPause}>Pause</button>
                                 <button className="btn-controls" onClick={onReset}>Reset</button>
                             </div> 
                     }
                         
-                            <div className="fixed top-[405px] left-[6%]">
+                            <div className="fixed top-[455px] md:top-[465px] lg:top-[475px] left-[6%]">
                                 <CountdownCircleTimer 
                                     isPlaying={startTimer ? true : false}
                                     duration={60}

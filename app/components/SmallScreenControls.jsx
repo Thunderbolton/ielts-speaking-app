@@ -5,23 +5,26 @@ export default function SmallScreenControls ({ onStart, onPause, onReset, classN
 
     const { deviceWidth } = useWindowResize()
 
+    const resizeWidth = deviceWidth >= 650 ? 30 : deviceWidth >= 500 ? 25 : 20;
+    
+
     return (
-        <div className={className}>     
+        <div className={className}> 
                 <img
                     src="play-svg.svg"
-                    width={deviceWidth >= 650 ? 30 : deviceWidth >= 500 ? 25 : 20 }
+                    width={resizeWidth}
                     height="20"
                     onClick={onStart}
                 />         
                 <img
                     src="pause-svg.svg"
-                    width={deviceWidth >= 650 ? 30 : deviceWidth >= 500 ? 25 : 20 }
+                    width={resizeWidth}
                     height="20"                                  
                     onClick={onPause}
                 />
                 <img
                     src="refresh-svg.svg"
-                    width={deviceWidth >= 650 ? 30 : deviceWidth >= 500 ? 25 : 20 }
+                    width={resizeWidth}
                     height="20"
                     onClick={onReset}
                 />            

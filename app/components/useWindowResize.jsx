@@ -5,9 +5,12 @@ export default function useWindowResize() {
 
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     const [deviceWidth, setDeviceWidth] = useState(0)
+    const [deviceHeight, setDeviceHeight] = useState(0)
+
 
     const handleWindowResize = () => {
       setDeviceWidth(window.innerWidth);
+      setDeviceHeight(window.innerHeight);
     }
 
 
@@ -19,5 +22,5 @@ export default function useWindowResize() {
         return () => window.removeEventListener("resize", handleWindowResize);
       }, );
 
-      return { deviceWidth, isSmallScreen, setIsSmallScreen }
+      return { deviceWidth, deviceHeight, isSmallScreen, setIsSmallScreen }
 }

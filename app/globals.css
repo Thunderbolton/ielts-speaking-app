@@ -52,7 +52,7 @@ h3 {
 } */
 
 .timers {
-    @apply flex  
+    @apply relative flex
 }
 
 .prep-timer-time {
@@ -78,7 +78,11 @@ h3 {
 }
 
 .small-screen-controls {
-   @apply fixed top-[375px] sm:top-[365px] flex 
+   @apply fixed top-[425px] sm:top-[415px] flex 
+}
+
+.hide-icon {
+    @apply fixed top-[375px]
 }
 
 .questions-toggle {
