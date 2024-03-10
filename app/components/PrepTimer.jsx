@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 import useWindowResize from "./useWindowResize"
 import SmallScreenControls from "./SmallScreenControls"
+import TimerIcon from "/public/timer-svg.svg" 
 
 
 export default function PrepTimer () {
@@ -31,6 +32,7 @@ export default function PrepTimer () {
 
     const toggleTimer = () => {
         setShowTimer(!showTimer);
+        // setShowTalkIcon('');
     };
 
     const onStart = () => {
@@ -46,14 +48,18 @@ export default function PrepTimer () {
         setKey(prevKey => prevKey + 1)
     }; 
     
-    
+
+    // const [showTalkIcon, setShowTalkIcon] = useState(false)
+
     return (        
         <>
             <button className="toggle-timer-parent" 
-           onClick={toggleTimer} >{!showTimer ? 'Show prep timer' : isSmallScreen ?  'Hide' : 'Hide'}</button>
-            
-            {showTimer && 
-                <>
+             onClick={toggleTimer} >{!showTimer ? 'Show prep timer' : isSmallScreen ?  'Hide' : 'Hide'}</button> 
+        
+            {showTimer ? 
+                <>                            
+                {!isSmallScreen && <button className="btn-controls fixed top-[335px] mx-16 left-[6%]" onClick={toggleTimer}>Hide</button>}
+
                     {isSmallScreen ?
                         <>
                             <SmallScreenControls className="small-screen-controls left-[6%] sm:left-[7.7%]" onStart={onStart} onPause={onPause} onReset={onReset}/>
@@ -64,8 +70,7 @@ export default function PrepTimer () {
                                 className="fixed top-[390px] sm:top-[370px] mx-4 left-[6.9%] sm:left-[6.5%] sm:mx-8 md:left-[7.5%]"
                                 onClick={toggleTimer}
                             /> 
-                        </>        
-                        
+                        </>       
                        
                         : 
                         
@@ -89,7 +94,11 @@ export default function PrepTimer () {
                                 </CountdownCircleTimer> 
                             </div>
                 </>    
-            }
+            :     
+            
+             scrollY > 326 && <TimerIcon alt="timer icon" height="100" width="100" fill="#d6e9eb" className="fixed top-[325px] mx-16 left-[5%]" onClick={toggleTimer}></TimerIcon>
+             
+             }
         </> 
     )
 }
