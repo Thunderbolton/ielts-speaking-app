@@ -91,7 +91,7 @@ export default function TalkTimer() {
 
             :     
                         
-            scrollY > 326 && <TalkIcon alt="talk icon" height="100" width="100" fill="#d6e9eb" className="fixed top-[325px] mx-16 right-[5%]" onClick={toggleTimer}></TalkIcon>
+            scrollY > 326 && <TalkIcon alt="talk icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className="fixed top-[340px] mx-8 right-[0%] sm:mx-12 lg:top-[325px] lg:right-[2%] lg:mx-24" onClick={toggleTimer}></TalkIcon>
         }
       </> 
   )

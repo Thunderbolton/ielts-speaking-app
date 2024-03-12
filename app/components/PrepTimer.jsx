@@ -96,7 +96,7 @@ export default function PrepTimer () {
                 </>    
             :     
             
-             scrollY > 326 && <TimerIcon alt="timer icon" height="100" width="100" fill="#d6e9eb" className="fixed top-[325px] mx-16 left-[5%]" onClick={toggleTimer}></TimerIcon>
+             scrollY > 326 && <TimerIcon alt="timer icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className="fixed top-[340px] mx-8 left-[0%] sm:mx-12 lg:top-[325px] lg:left-[2%] lg:mx-24" onClick={toggleTimer}></TimerIcon>
              
              }
         </> 
