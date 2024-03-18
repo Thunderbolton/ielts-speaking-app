@@ -7,8 +7,6 @@ import TalkOn from "/public/talkOn-svg.svg"
 import TalkOff from "/public/talkOff-svg.svg" 
 
 
-
-
 export default function TalkTimer() {
 
   const { deviceWidth, isSmallScreen, setIsSmallScreen } = useWindowResize()

@@ -23,28 +23,36 @@ h3 {
    @apply min-w-[calc(100%-3rem)] ms-auto me-auto    
 }
   
+
+/* PartInfo.jsx */
 .part-info {
     @apply max-w-[70ch] m-auto text-center
-}
-
-
-.outline-text {
-    text-shadow: -1px -1px 1px #007984, 1px -1px 1px #007984, -1px 1px 1px #007984, 1px 1px 1px #007984
-}
-.heading-lg {
-    @apply text-2xl font-bold my-4 pb-4 [font-size:_clamp(1.2em,2vw,1.8em)]
-}
-
-.heading-md {
-    @apply text-2xl text-[#eff9fb] font-bold my-6 py-1 [font-size:_clamp(1em,1.8vw,1.5em)]
 }
 
 .part-info-time {
    @apply my-1 italic [font-size:_clamp(0.9em,1.5vw,1.2em)]
 }
 
+.timers {
+    @apply relative flex
+}
+
+
+/* PrepTimer.jsx */
+.prep-timer-time {
+    @apply text-[1.6rem] pb-1 sm:text-3xl md:text-5xl lg:text-7xl
+}
+
+
+/* TalkTimer.jsx */
+.talk-timer {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl
+}
+
+
+/* PrepTimer.jsx, TalkTimer.jsx */
 .toggle-timer-parent {
-    @apply m-auto p-2 box-border [font-size:_clamp(0.9em,1.6vw,1.2em)] rounded bg-[#eef9fb] hover:bg-[#84ccd3] hover:text-[#eef9fb] border-2 border-[#007984] 
+    @apply m-auto p-2 [font-size:_clamp(0.9em,1.6vw,1.2em)] rounded bg-[#eef9fb] hover:bg-[#84ccd3] hover:text-[#eef9fb] border-2 border-[#007984] 
 }
 
 .timer-icons-hide {    
@@ -55,32 +63,6 @@ h3 {
     fill: #eef9fb;
 }
 
-/* .toggle-timer-child {
-    @apply flex
-} */
-
-.timers {
-    @apply relative flex
-}
-
-.prep-timer-time {
-    @apply text-[1.6rem] pb-1 sm:text-3xl md:text-5xl lg:text-7xl
-}
-
-.talk-timer {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl
-}
-
-/* .prep-displayed { 
-    @apply absolute bottom-60 left-0
-    
-} */
-
-/* .talk-displayed {
-    @apply absolute top-10 right-0
-    
-} */
-
 .btn-controls {
     @apply mr-2 p-2 border-solid border-2 border-[#007984] rounded bg-[#eef9fb]  hover:bg-[#84ccd3] hover:text-[#eef9fb] active:border-[#eef9fb];	
 }
@@ -89,27 +71,20 @@ h3 {
    @apply fixed top-[425px] sm:top-[415px] flex 
 }
 
-.hide-icon {
-    @apply fixed top-[375px]
-}
 
+/* QuestionsList.jsx */
 .questions-toggle {
     @apply mt-3 text-center	[font-size:_clamp(0.9em,1.6vw,1.2em)]
 }
 
-/* .timer-circle {
-  @apply flex flex-col border-solid border-2 border-green-500
-} */
-
-/* .overall-container {
-    @apply border-solid border-2 border-green-500
-} */
-
-.large-screen-container {
-    @apply flex border-solid border-2 border-green-500 w-full
+.heading-lg {
+    @apply text-2xl font-bold my-4 pb-4 [font-size:_clamp(1.2em,2vw,1.8em)]
 }
 
+.heading-md {
+    @apply text-2xl text-[#eff9fb] font-bold my-6 py-1 [font-size:_clamp(1em,1.8vw,1.5em)]
+}
 
-/* .small-screen-container {
-    @apply relative
-} */
+.outline-text {
+    text-shadow: -1px -1px 1px #007984, 1px -1px 1px #007984, -1px 1px 1px #007984, 1px 1px 1px #007984
+}

@@ -8,7 +8,6 @@ import TimerOff from "/public/timerOff-svg.svg"
 import TimerOn from "/public/timerOn-svg.svg" 
 
 
-
 export default function PrepTimer () {
 
     const { deviceWidth, isSmallScreen, setIsSmallScreen } = useWindowResize()
@@ -34,7 +33,6 @@ export default function PrepTimer () {
 
     const toggleTimer = () => {
         setShowTimer(!showTimer);
-        // setShowTalkIcon('');
     };
 
     const onStart = () => {
