@@ -3,7 +3,9 @@
 import { useState, useEffect } from "react"
 import useWindowResize from "./useWindowResize"
 import SmallScreenControls from "./SmallScreenControls"
-import TalkIcon from "/public/talk-svg.svg" 
+import TalkOn from "/public/talkOn-svg.svg"
+import TalkOff from "/public/talkOff-svg.svg" 
+
 
 
 
@@ -54,11 +56,11 @@ export default function TalkTimer() {
           
   }, [startTimer]);
 
-
+<></>
   return (
       <>
         <button className="toggle-timer-parent" 
-        onClick={toggleTimer} >{!showTimer ? 'Show talk timer' : isSmallScreen ?  'Hide' : 'Hide'}</button>
+        onClick={toggleTimer} >{!showTimer ? 'Show talk timer' : <TalkOff className="timer-icons-hide"/>}</button>
                                 
         {showTimer ?
         <>
@@ -91,7 +93,7 @@ export default function TalkTimer() {
 
             :     
                         
-            scrollY > 326 && <TalkIcon alt="talk icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className="fixed top-[340px] mx-8 right-[0%] sm:mx-12 lg:top-[325px] lg:right-[2%] lg:mx-24" onClick={toggleTimer}></TalkIcon>
+            scrollY > 326 && <TalkOn alt="talk icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className="fixed top-[340px] mx-8 right-[0%] sm:mx-12 lg:top-[325px] lg:right-[2%] lg:mx-24" onClick={toggleTimer}></TalkOn>
         }
       </> 
   )

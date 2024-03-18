@@ -21,7 +21,7 @@ module.exports = {
         'turqoise-dark': '#0098a5',
         'turqoise-light': '#e3f6f9',
       },
-    }
+    },
   },
   plugins: [],
 }

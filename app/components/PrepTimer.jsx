@@ -4,7 +4,9 @@ import { useState, useEffect } from "react"
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 import useWindowResize from "./useWindowResize"
 import SmallScreenControls from "./SmallScreenControls"
-import TimerIcon from "/public/timer-svg.svg" 
+import TimerOff from "/public/timerOff-svg.svg"
+import TimerOn from "/public/timerOn-svg.svg" 
+
 
 
 export default function PrepTimer () {
@@ -49,12 +51,11 @@ export default function PrepTimer () {
     }; 
     
 
-    // const [showTalkIcon, setShowTalkIcon] = useState(false)
 
     return (        
         <>
             <button className="toggle-timer-parent" 
-             onClick={toggleTimer} >{!showTimer ? 'Show prep timer' : isSmallScreen ?  'Hide' : 'Hide'}</button> 
+             onClick={toggleTimer} >{!showTimer ? 'Show prep timer' : <TimerOff className="timer-icons-hide stroke-2"/>}</button> 
         
             {showTimer ? 
                 <>                            
@@ -96,7 +97,7 @@ export default function PrepTimer () {
                 </>    
             :     
             
-             scrollY > 326 && <TimerIcon alt="timer icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className="fixed top-[340px] mx-8 left-[0%] sm:mx-12 lg:top-[325px] lg:left-[2%] lg:mx-24" onClick={toggleTimer}></TimerIcon>
+             scrollY > 326 && <TimerOn alt="timer icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className=" fixed top-[340px] mx-8 left-[0%] sm:mx-12 lg:top-[325px] lg:left-[2%] lg:mx-24" onClick={toggleTimer}></TimerOn>
              
              }
         </> 

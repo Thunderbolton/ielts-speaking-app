@@ -44,7 +44,15 @@ h3 {
 }
 
 .toggle-timer-parent {
-    @apply m-auto p-2 [font-size:_clamp(0.9em,1.6vw,1.2em)] border-solid border-2 border-[#007984] rounded bg-[#eef9fb] hover:bg-[#007984] hover:text-[#eef9fb] active:border-[#eef9fb]
+    @apply m-auto p-2 box-border [font-size:_clamp(0.9em,1.6vw,1.2em)] rounded bg-[#eef9fb] hover:bg-[#84ccd3] hover:text-[#eef9fb] border-2 border-[#007984] 
+}
+
+.timer-icons-hide {    
+    width:auto;   
+    height: 2.5rem;     
+    border-radius: 0.25rem;
+    stroke: #007984;
+    fill: #eef9fb;
 }
 
 /* .toggle-timer-child {
@@ -74,7 +82,7 @@ h3 {
 } */
 
 .btn-controls {
-    @apply mr-2 p-2 border-solid border-2 border-[#007984] rounded bg-[#eef9fb]  hover:bg-[#007984] hover:text-[#eef9fb] active:border-[#eef9fb];	
+    @apply mr-2 p-2 border-solid border-2 border-[#007984] rounded bg-[#eef9fb]  hover:bg-[#84ccd3] hover:text-[#eef9fb] active:border-[#eef9fb];	
 }
 
 .small-screen-controls {
