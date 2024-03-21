@@ -9,7 +9,7 @@ import TalkOff from "/public/talkOff-svg.svg"
 
 export default function TalkTimer() {
 
-  const { deviceWidth, isSmallScreen, setIsSmallScreen } = useWindowResize()
+  const { deviceWidth, deviceScroll,isSmallScreen, setIsSmallScreen } = useWindowResize()
 
     useEffect(() => {
         if(deviceWidth <= 950)
@@ -91,7 +91,7 @@ export default function TalkTimer() {
 
             :     
                         
-            scrollY > 326 && <TalkOn alt="talk icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className="fixed top-[340px] mx-8 right-[0%] sm:mx-12 lg:top-[325px] lg:right-[2%] lg:mx-24" onClick={toggleTimer}></TalkOn>
+            deviceScroll > 326 && <TalkOn alt="talk icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className="fixed top-[340px] mx-8 right-[0%] sm:mx-12 lg:top-[325px] lg:right-[2%] lg:mx-24" onClick={toggleTimer}></TalkOn>
         }
       </> 
   )

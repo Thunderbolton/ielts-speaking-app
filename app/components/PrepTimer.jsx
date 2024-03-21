@@ -10,7 +10,7 @@ import TimerOn from "/public/timerOn-svg.svg"
 
 export default function PrepTimer () {
 
-    const { deviceWidth, isSmallScreen, setIsSmallScreen } = useWindowResize()
+    const { deviceWidth, deviceScroll, isSmallScreen, setIsSmallScreen } = useWindowResize()
 
     useEffect(() => {
         if(deviceWidth <= 950)
@@ -57,7 +57,7 @@ export default function PrepTimer () {
         
             {showTimer ? 
                 <>                            
-                {!isSmallScreen && <button className="btn-controls fixed top-[335px] mx-16 left-[6%]" onClick={toggleTimer}>Hide</button>}
+                {!isSmallScreen && <button className="btn-controls fixed top-[335px] mx-16 left-[6%]" onClick={toggleTimer}>sdnv</button>}
 
                     {isSmallScreen ?
                         <>
@@ -94,8 +94,8 @@ export default function PrepTimer () {
                             </div>
                 </>    
             :     
-            
-             scrollY > 326 && <TimerOn alt="timer icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className=" fixed top-[340px] mx-8 left-[0%] sm:mx-12 lg:top-[325px] lg:left-[2%] lg:mx-24" onClick={toggleTimer}></TimerOn>
+             
+            deviceScroll > 326 && <TimerOn alt="timer icon" height="100" width={deviceWidth >= 950 ? 100 : deviceWidth >= 650 ? 80 : deviceWidth >= 500 ? 65 : 55} fill="#d6e9eb" className=" fixed top-[340px] mx-8 left-[0%] sm:mx-12 lg:top-[325px] lg:left-[2%] lg:mx-24" onClick={toggleTimer}></TimerOn>
              
              }
         </> 
