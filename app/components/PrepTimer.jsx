@@ -57,7 +57,7 @@ export default function PrepTimer () {
         
             {showTimer ? 
                 <>                            
-                {!isSmallScreen && <button className="btn-controls fixed top-[335px] mx-16 left-[6%]" onClick={toggleTimer}>sdnv</button>}
+                {!isSmallScreen && <button className="btn-controls fixed top-[335px] mx-16 left-[6%]" onClick={toggleTimer}>Hide</button>}
 
                     {isSmallScreen ?
                         <>
